@@ -33,3 +33,6 @@ Any Node host (Vercel, Netlify, Azure Static Web Apps w/ Node, container). Set e
 - Additional-services copy and "technologies referenced" come from the existing homepage; not linked to the old detail pages (URLs unknown).
 - No testimonials, certifications, client names or statistics are used. "About" copy is generic; add real bios/credentials.
 - The sample "Example Family Clinic" is carried over from the existing site, and budget ranges are fictional.
+
+## Branding
+Applied from the cyberSAVANTS Brand Guide v2.0: Savant Green `#00E639` on Cyber Black/Charcoal, Montserrat (Black/Bold/Regular) with Playfair Display Italic for taglines, 8px button radius, approved button styles. Colors are defined once as tokens in `src/app/globals.css` (`@theme`). Green text on light backgrounds uses a darker AA-compliant green (`#007A29`); amber/red text uses darker text-safe variants. The wordmark is live text (`src/components/Chrome.tsx`); the power-button icon is cropped from the supplied logo PNG (`public/brand/`). The supplied PNG is low resolution; replace `public/brand/icon.png`, `src/app/icon.png` and `src/app/apple-icon.png` with an SVG/high-res export when available.

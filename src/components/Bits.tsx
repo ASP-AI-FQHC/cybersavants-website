@@ -29,7 +29,7 @@ export function PageHero({ eyebrow, title, lead, children }: { eyebrow: string; 
 export function FinalCta({ title = "You Cannot Manage the Risk You Cannot Clearly See.", lead = "Discover what your organization is exposed to, which risks require leadership attention, and how a monthly executive review can help you make informed cybersecurity decisions.", button = "Schedule Your Executive Briefing" }: { title?: string; lead?: string; button?: string }) {
   return (
     <section className="dark-surface relative overflow-hidden bg-navy-950 py-24 text-white no-print-board">
-      <div aria-hidden className="absolute inset-0 opacity-40" style={{ background: "radial-gradient(60% 80% at 80% 0%, #137a85 0%, transparent 60%)" }} />
+      <div aria-hidden className="absolute inset-0 opacity-40" style={{ background: "radial-gradient(60% 80% at 80% 0%, #00e639 0%, transparent 60%)" }} />
       <div className="container-x relative text-center">
         <h2 className="font-display mx-auto max-w-3xl text-4xl font-semibold leading-tight md:text-5xl">{title}</h2>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-300">{lead}</p>

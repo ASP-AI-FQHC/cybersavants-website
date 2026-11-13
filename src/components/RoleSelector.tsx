@@ -29,7 +29,7 @@ export default function RoleSelector() {
         <p className="eyebrow">For the {r.label}</p>
         <h3 className="font-display mt-2 text-2xl font-semibold text-navy-900 md:text-3xl">{r.head}</h3>
         <ul className="mt-6 space-y-3">{r.pts.map((p) => (<li key={p} className="flex gap-3 text-charcoal"><span aria-hidden className="mt-2 h-2 w-2 shrink-0 rounded-full bg-teal-500" />{p}</li>))}</ul>
-        <blockquote className="mt-8 border-l-4 border-teal-500 pl-5 font-display text-xl italic text-navy-900">The question we help you answer: “{r.q}”</blockquote>
+        <blockquote className="mt-8 border-l-4 border-teal-500 pl-5 tagline text-xl text-navy-900">The question we help you answer: “{r.q}”</blockquote>
         <Link href="/sample-report" className="btn btn-outline mt-8">See what you would receive</Link>
       </div>
     </div>

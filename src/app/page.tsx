@@ -26,12 +26,12 @@ export default function Home() {
   return (
     <>
       <section className="dark-surface relative overflow-hidden bg-navy-900 text-white">
-        <div aria-hidden className="absolute inset-0" style={{ background: "radial-gradient(70% 60% at 85% 20%, rgba(27,154,166,.28), transparent 60%), radial-gradient(50% 50% at 0% 100%, rgba(26,49,88,.9), transparent 70%)" }} />
+        <div aria-hidden className="absolute inset-0" style={{ background: "radial-gradient(70% 60% at 85% 20%, rgba(0,230,57,.16), transparent 60%), radial-gradient(50% 50% at 0% 100%, rgba(42,42,42,.9), transparent 70%)" }} />
         <div className="container-x relative grid items-center gap-14 py-20 md:py-28 lg:grid-cols-[1.15fr_.85fr]">
           <div>
             <p className="eyebrow mb-5">Executive Vulnerability Management</p>
-            <h1 className="font-display text-4xl font-semibold leading-[1.05] md:text-6xl lg:text-[4.2rem]">Cybersecurity Risk, Translated for the Boardroom.</h1>
-            <p className="mt-5 text-xl text-teal-300">Know your exposure. Understand your risk. Make better decisions.</p>
+            <h1 className="font-display text-4xl leading-[1.08] md:text-5xl lg:text-6xl">Cybersecurity Risk, Translated for the Boardroom.</h1>
+            <p className="tagline mt-5 text-2xl text-teal-300">Know your exposure. Understand your risk. Make better decisions.</p>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">Recurring vulnerability assessments, risk-based prioritization and executive-ready reporting, with a monthly strategic review led by an experienced cybersecurity advisor.</p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link href="/contact" className="btn btn-primary">Request an Executive Risk Briefing</Link>
@@ -78,7 +78,7 @@ export default function Home() {
         <Heading dark eyebrow="The monthly advisory process" title="Every Month. Your Risk. Your Decisions. Our Guidance." lead="Cybersecurity reporting has limited value unless leadership understands what the findings mean and what action is required. Every month, Cybersavants meets with your designated executive stakeholders to review your organization's risk posture, explain material changes, establish remediation priorities, and discuss the decisions necessary to reduce business exposure." />
         <div className="mt-12"><Process dark /></div>
         <div className="mt-10 grid gap-6 md:grid-cols-2">
-          <p className="font-display text-2xl leading-snug text-white">“We don't simply tell you what is vulnerable. We help you understand what matters, why it matters, and what to do next.”</p>
+          <p className="tagline text-2xl leading-snug text-white">“We don't simply tell you what is vulnerable. We help you understand what matters, why it matters, and what to do next.”</p>
           <p className="text-slate-300 leading-relaxed"><strong className="text-white">More than a report. A monthly conversation about your risk.</strong> The review focuses on operational resilience, financial exposure, risk ownership, investment priorities and progress. It is advisory guidance. Hands-on remediation is a separate activity, performed only where agreed in writing.</p>
         </div>
       </Section>

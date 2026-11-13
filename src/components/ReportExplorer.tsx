@@ -120,8 +120,8 @@ export default function ReportExplorer({ showBoardPrint = true }: { showBoardPri
             <p className="mt-2 max-w-3xl text-slate-ink" aria-live="polite">{observation(mi)} <span className="text-sm">(Select a reporting period above to highlight it.)</span></p>
             <div className="mt-8 grid gap-6 md:grid-cols-2">
               <ChartCard title="High-priority exposures over time" note={`Peaked at ${peak.open} in ${peak.full}; ${MONTHS[LAST].open} today.`}><OpenLine sel={mi} /></ChartCard>
-              <ChartCard title="New versus resolved" note="Since August, more has been resolved each month than has appeared." legend={[["#b7791f", "New"], ["#1b9aa6", "Resolved"]]}><NewResolved sel={mi} /></ChartCard>
-              <ChartCard title="How long exposures stay open" note="Only one exposure is older than 90 days: the unsupported scheduling software." legend={[["#7fd1d9", AGING_LABELS[0]], ["#1b9aa6", AGING_LABELS[1]], ["#a8322d", AGING_LABELS[2]]]}><Aging sel={mi} /></ChartCard>
+              <ChartCard title="New versus resolved" note="Since August, more has been resolved each month than has appeared." legend={[["#f5a623", "New"], ["#00a82d", "Resolved"]]}><NewResolved sel={mi} /></ChartCard>
+              <ChartCard title="How long exposures stay open" note="Only one exposure is older than 90 days: the unsupported scheduling software." legend={[["#80f5a0", AGING_LABELS[0]], ["#00a82d", AGING_LABELS[1]], ["#c42b2b", AGING_LABELS[2]]]}><Aging sel={mi} /></ChartCard>
               <ChartCard title="Progress against agreed priorities" note="Six of eight agreed priorities are complete. The remaining two are the high-impact risks awaiting decisions."><Progress sel={mi} /></ChartCard>
             </div>
           </div>

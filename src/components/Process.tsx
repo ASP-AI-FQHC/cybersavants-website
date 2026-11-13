@@ -14,7 +14,7 @@ export default function Process({ dark = false }: { dark?: boolean }) {
           <span className={`font-display flex h-9 w-9 items-center justify-center rounded-full text-sm font-semibold ${s.hl ? "bg-navy-950 text-white" : dark ? "bg-navy-950 text-teal-300 ring-1 ring-teal-300/50" : "bg-navy-900 text-white"}`}>{s.n}</span>
           <h3 className={`font-display mt-5 text-2xl font-semibold ${s.hl ? "" : dark ? "text-white" : "text-navy-900"}`}>{s.t}</h3>
           <p className={`mt-2 text-[15px] leading-relaxed ${s.hl ? "text-navy-950/85" : dark ? "text-slate-300" : "text-slate-ink"}`}>{s.d}</p>
-          <p className={`mt-4 text-xs font-semibold uppercase tracking-wider ${s.hl ? "text-navy-950" : "text-teal-600"}`}>{s.who}</p>
+          <p className={`mt-4 text-xs font-semibold uppercase tracking-wider ${s.hl ? "text-navy-950" : dark ? "text-teal-500" : "text-teal-600"}`}>{s.who}</p>
         </li>))}
     </ol>
   );

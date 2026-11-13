@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: "Executive Vulnerability Management & Board Cybersecurity Reporting | Cybersavants", template: "%s | Cybersavants" },
   description: "Cybersecurity risk, translated for the boardroom. Executive vulnerability management with board-ready reporting and a monthly strategic review for CEOs, CFOs, COOs and Boards, including healthcare leaders.",
-  openGraph: { type: "website", siteName: "Cybersavants", title: "Cybersecurity Risk, Translated for the Boardroom", description: "Executive vulnerability management with board-ready reporting and a monthly advisory review." },
+  openGraph: { type: "website", images: [{ url: "/brand/og.png", width: 1200, height: 630, alt: "cyberSAVANTS: Your unique technology partner" }], siteName: "Cybersavants", title: "Cybersecurity Risk, Translated for the Boardroom", description: "Executive vulnerability management with board-ready reporting and a monthly advisory review." },
   alternates: { canonical: "/" },
 };
-export const viewport: Viewport = { themeColor: "#0a1730", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#000000", width: "device-width", initialScale: 1 };
 
 const ld = { "@context": "https://schema.org", "@type": "ProfessionalService", name: "Cybersavants", url: SITE.url, email: SITE.email, description: "Executive vulnerability management and board cybersecurity reporting, with a focus on healthcare organizations." };
 
