@@ -62,7 +62,7 @@ export default function Home() {
         <p className="mt-8 max-w-3xl text-lg leading-relaxed text-slate-ink">A list of two hundred findings does not tell a CEO what to approve, a CFO what to fund, or a Board what to oversee. <strong className="text-navy-900">Your Board deserves answers, not technical reports.</strong></p>
         <figure className="mt-14">
           <Image src="/brand/board-briefing.webp" width={1672} height={941} sizes="(min-width: 1216px) 1216px, 100vw" className="h-auto w-full rounded-2xl shadow-[0_30px_80px_-30px_rgba(0,0,0,.45)]"
-            alt="An executive presents a cybersecurity risk briefing to a Board of Directors, with a screen showing a ransomware exposure figure, a proposed infrastructure cost, a map of targeted regions, a question about business continuity and disaster recovery, and key takeaways." />
+            alt="An executive presents a cybersecurity risk briefing to a Board of Directors. The screen shows a ransomware exposure figure, a proposed infrastructure cost, a map of targeted regions, a security posture summary, the date of the next strategic business review, and key takeaways for the Board." />
           <figcaption className="mt-3 text-sm text-slate-ink">Illustrative Board briefing scenario. Figures shown are examples for illustration, not client data or industry statistics.</figcaption>
         </figure>
       </Section>
